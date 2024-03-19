@@ -1,0 +1,66 @@
+---
+title: ''
+output: pdf_document
+---
+
+~~~{=comment}
+Set up the frontpage, with author, title, etc
+
+Please note that the front page made here will not be included in printed version. 
+
+The cover, title page and colophon page are automatically generated from the information 
+you enter when placing the order in Avhandlingsportalen - 
+please see https://avhandling.uib.no/ for more information
+~~~
+
+
+\begin{titlepage}
+  \centering
+  
+  \vspace*{\fill}
+
+  \textbf{{\fontsize{28}{30}\usefont{OT1}{phv}{bc}{n}\selectfont Main Title}} \\
+
+  \huge
+  \text{Subtitle}
+
+  \vspace{1.5cm}
+
+  \Large    
+  \textbf{First-name Last-name} \\
+
+  \vspace{1.5cm}
+
+  \includegraphics[width=0.7\textwidth]{figures/UiB-emblem.png}
+
+  \vspace{1cm}
+
+  \Large
+  \text{Thesis for the degree of Philosophiae Doctor (PhD)} \\
+  \text{at the University of Bergen} \\
+  \vspace{1cm}
+  \text{YEAR}
+  
+  \vspace*{\fill}
+
+\end{titlepage}
+
+
+
+\newpage
+
+\thispagestyle{empty}
+
+© Copyright FIRST-NAME LAST-NAME \
+The material in this publication is protected by copyright law.
+
+\vspace{1cm}
+
+\begin{tabular}{@{}ll@{}}
+        \text{Year:} & \hspace{1cm} XXXX \\[1.5ex]
+        \text{Title:} & \hspace{1cm} TITLE HERE \\[1.5ex]
+        \text{Author:} & \hspace{1cm} FIRST-NAME LAST-NAME \\[1.5ex]
+        \text{Print:} & \hspace{1cm} COMPANY / UNIVERSITY \\
+    \end{tabular}
+
+\newpage

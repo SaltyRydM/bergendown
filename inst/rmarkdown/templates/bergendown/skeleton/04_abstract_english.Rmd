@@ -1,0 +1,8 @@
+---
+title: ''
+output: pdf_document
+---
+
+# Abstract in English
+
+Here you can include an abstract of the thesis in English, with reference to the PhD regulations: ”An abstract of the thesis, one in English and one in Norwegian, must be included in the thesis”.

@@ -1,0 +1,83 @@
+---
+title: " "
+output: 
+  bookdown::pdf_document2:
+    number_sections: TRUE
+    toc: FALSE
+    keep_tex: FALSE
+geometry: "left = 2.5cm, right = 2.5cm, top = 2.5cm, bottom = 2.5cm, bindingoffset = 2mm, paper = a4paper"
+documentclass: book
+fontsize: 12pt
+header-includes:
+  - \input{preamble.tex}
+#  - \usepackage[left]{lineno} # Add these two commands to include linenumbers
+#  - \linenumbers
+bibliography: bibliography.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# install.packages("bookdown") # If bookdown package is missing
+# tinytex::install_tinytex() # If latex interpreter is missing
+if(!require(bookdown)) install.packages("bookdown")
+Packages <- c("bookdown") # Add your R packages here
+lapply(Packages, library, character.only = TRUE)
+```
+
+```{r scientificenvir, child='0_title_page.Rmd'}
+```
+
+\frontmatter 
+
+```{r scientificenvir, child='01_scientific_environment.Rmd'}
+```
+
+```{r acknowledgments, child='02_acknowledgments.Rmd'}
+```
+
+```{r preface, child='03_preface.Rmd'}
+```
+
+```{r abstractEN, child='04_abstract_english.Rmd'}
+```
+
+```{r abstractNO, child='05_abstract_norwegian.Rmd'}
+```
+
+```{r publist, child='06_publicationlist.Rmd'}
+```
+
+\newpage
+
+\tableofcontents
+
+```{r abbreviations, child='07_abbreviations.Rmd'}
+```
+
+\mainmatter
+
+\newpage
+
+```{r intro, child = 'ch1_introduction.Rmd'}
+```
+\newpage
+```{r aims, child = 'ch2_aims.Rmd'}
+```
+\newpage
+```{r results, child = 'ch3_section.Rmd'}
+```
+\newpage
+```{r discussion, child = 'chX_examples.Rmd'}
+```
+\newpage
+```{r conclusion, child = 'chX_conclusion.Rmd'}
+```
+\newpage
+
+\backmatter
+
+```{r bibliography, child = 'bibliography.Rmd'}
+```
+\newpage
+```{r appendix, child = 'appendix.Rmd'}
+```

@@ -1,0 +1,10 @@
+---
+title: ''
+output: pdf_document
+---
+
+# Bibliography
+
+::: {#refs custom-style="Bibliography"}
+:::
+

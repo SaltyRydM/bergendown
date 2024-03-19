@@ -1,0 +1,34 @@
+---
+title: ''
+output: pdf_document
+---
+
+# Some examples
+
+## Adding citations
+
+This is just an example document of what you can do in an Rmarkdown document. You can for example easily add references both in text @sandaa2022 and in brackets [@sandaa2022]. The reference key (here `sandaa2022`) must correspond with the reference key in the bibliography.bib file. You can use a citation manager, such as Zotero, to generate such a file.
+
+However, the easiest way to add references both in text and to the bibliography file synchronously is to switch from `Source` to `Visual` mode (upper left corner, beneath the save button). In visual mode you can click `Insert` and `Citation` and a window should pop up where you can add references directly from you reference manager. Make sure that the references are saved to the `bibliography.bib` file (lower left corner) and that you tick the box with `In-text` references depending on how you want the reference to look.
+
+If you prefer to work in `Source` mode you can use a package called `citr`. You can download it by copying `devtools::install_github("crsh/citr")` to your console. You might be missing the `devtools` package, if so, copy `install.packages("devtools")` and try installing `citr` again.
+
+## Adding figure references
+
+The bookdown package used in rendering this document includes a nice way to reference figures without having to worry about the figure number. You simply make your plot in an R-chunk, make a name for that chunk and voilá you can reference that figure. You would also need to add figure text in the chunk option by the `fig.cap` . To avoid having to write a long figure text in the chunk option you can make a reference (ref:cars-text) below the figure and also refer to this in the chunk option (see example below). Now you can add in text reference to your figure (Figure \@ref(fig:cars)) and never worry if you change the order of you figures ;)
+
+```{r cars,fig.cap="(ref:cars-text)", fig.align='center'}
+# Define the cars vector with 5 values
+library(ggplot2)
+
+# Graph the cars vector with all defaults
+p <- ggplot(mtcars, aes(wt, mpg)) + geom_point()
+
+p
+```
+
+(ref:cars-text) Here you can write figure text beneath the figure by just using references! You can even reference this figure in the text :)
+
+## In line calculations
+
+Here is an example of adding in-line calculations `r 4+4`.

@@ -1,0 +1,14 @@
+---
+title: ''
+output: pdf_document
+---
+
+# List of publications
+
+(Applies to dissertations based on articles. Examples :)
+
+  1. Author, Sometitle, Somejournal 1, 1, 1905.
+
+\vspace*{\fill}
+
+The bottom of the page must contain information that the publisher have given permission to quote the article. Example: *"Reprints were made with permission from [publisher]".* Or *"The published papers are reprinted with permission from [publisher]. All rights reserved."*

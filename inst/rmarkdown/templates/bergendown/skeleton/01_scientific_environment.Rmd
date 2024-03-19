@@ -1,0 +1,16 @@
+---
+title: ''
+output: pdf_document
+---
+
+# Scientific environment
+
+This is where you write the name of the subject/professional milieu involved in the study, faculty(faculties)/institute(s)/centre(s)/research groups/school of research.
+
+Contractual joint venture partners should also be mentioned here. If these are represented by graphic symbols (logo etc.) they should be included on this page.
+
+NB! Most organisations have guidelines concerning the use of their logo. These guidelines regulate \underline{who} can use the logo, \underline{when} the logo can be used and \underline{how}. This is quite relevant when a logo is used together with information connected to other institutions/organisations. (A typical example would be rules concerning space between other written or graphic content.)
+
+Remember to find out which guidelines apply and ensure that they are followed!
+
+Most organisations will be able to provide a digital version of their logo in a suitable format. Pip pip makaroni

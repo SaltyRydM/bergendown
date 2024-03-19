@@ -1,0 +1,8 @@
+---
+title: ''
+output: pdf_document
+---
+
+# List of Abbreviations
+
+List of abbreviations used in the thesis.
