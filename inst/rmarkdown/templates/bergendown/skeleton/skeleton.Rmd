@@ -10,7 +10,7 @@ documentclass: book
 fontsize: 12pt
 header-includes:
   - \input{preamble.tex}
-#  - \usepackage[left]{lineno} # Add these two commands to include linenumbers
+#  - \usepackage[left]{lineno} # Add these two commands to include linenumbers TEST
 #  - \linenumbers
 bibliography: bibliography.bib
 ---
