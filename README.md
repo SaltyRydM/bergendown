@@ -1,6 +1,6 @@
 # Write your PhD thesis in Rmarkdown <br/> University of Bergen
 
-This is an Rmarkdown dissertation/thesis template for PhD students at University of Bergen and was created by Marius Langvad (PhD student). The template is a combination of RMarkdown and the official UiB LaTeX template (<https://avhandling.uib.no/>) to achieve proper formatting (no LaTeX skills required). The work was inspired by [ismayc/thesisdown](https://github.com/ismayc/thesisdown).
+This is an Rmarkdown dissertation/thesis template for PhD students at University of Bergen and was created by Marius Langvad (PhD student). The template is a combination of RMarkdown and the official UiB LaTeX template (<https://avhandling.uib.no/>) to achieve proper formatting (no LaTeX skills required). This template was inspired by [ismayc/thesisdown](https://github.com/ismayc/thesisdown).
 
 You can preview a rendered PDF template by clicking [here](https://github.com/SaltyRydM/bergendown/blob/main/thesis.pdf#:~:text=Raw%20file%20content-,Download,-%E2%8C%98).
 
