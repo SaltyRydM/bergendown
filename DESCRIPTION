@@ -1,11 +1,11 @@
 Package: bergendown
-Type: Package
-Title: Template for UiB dissertations
+Type: Rmarkdown template
+Title: Rmarkdown thesis template for UiB dissertations
 Version: 0.1.0
 Author: Marius R. Langvad
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Maintainer: Marius R. Langvad
+Description: This template is based on the bookdown package and the official
+    UiB LaTeX template.
+License: CC0-1.0 license
 Encoding: UTF-8
 LazyData: true
