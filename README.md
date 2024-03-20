@@ -4,7 +4,7 @@ This is an Rmarkdown dissertation/thesis template for PhD students at University
 
 You can preview a rendered PDF template by clicking [here](https://github.com/SaltyRydM/bergendown/blob/main/thesis.pdf#:~:text=Raw%20file%20content-,Download,-%E2%8C%98).
 
-To install this template, copy these commands to your R console in RStudio:
+To **install** this template, copy these commands to your R console in RStudio:
 
 ``` r
 if (!require("remotes")) 
@@ -18,6 +18,8 @@ Once installed you can open a fresh template by clicking:
 - File -> New File -> R Markdown... -> From Template -> UiB dissertation template
 
 <br/>
+
+## About the template
 
 All the `*.Rmd` files correspond to the different sections of the dissertation. PS: Even though the title page is written in LaTeX (and might look frighting), you only need to replace the text that is already there (e.g. "Main Title", "Subtitle", "First-name Last-name"...).
 
