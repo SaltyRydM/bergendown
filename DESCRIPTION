@@ -1,11 +1,10 @@
 Package: bergendown
 Type: Rmarkdown template
 Title: Rmarkdown thesis template for UiB dissertations
-Version: 0.1.0
+Version: 0.1.1
 Author: Marius R. Langvad
-Maintainer: Marius R. Langvad
-Description: This template is based on the bookdown package and the official
-    UiB LaTeX template.
+Maintainer: Marius R. Langvad <marius.langvad@uib.no>
+Description: This template is based on the bookdown package and the official UiB LaTeX template.
 License: CC0-1.0 license
 Encoding: UTF-8
 LazyData: true
