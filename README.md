@@ -6,7 +6,7 @@ You can preview a rendered PDF template by clicking [here](https://github.com/Sa
 
 To install this template, copy these commands to your R console in RStudio:
 
-```{r}
+``` r
 if (!require("remotes")) 
   install.packages("remotes", repos = "https://cran.rstudio.org")
 remotes::install_github("rstudio/bookdown")
