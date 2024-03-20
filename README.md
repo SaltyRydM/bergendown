@@ -15,7 +15,7 @@ remotes::install_github("SaltyRydM/bergendown")
 
 Once installed you can open a fresh template by clicking:
 
-- File -> New File -> R Markdown... -> From Template -> UiB dissertation template
+- File -> New File -> R Markdown... -> From Template -> UiB dissertation template -> OK
 
 <br/>
 
