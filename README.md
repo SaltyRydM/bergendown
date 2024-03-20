@@ -17,6 +17,8 @@ Once installed you can open a fresh template by clicking:
 
 - File -> New File -> R Markdown... -> From Template -> UiB dissertation template
 
+<br/>
+
 All the `*.Rmd` files correspond to the different sections of the dissertation. PS: Even though the title page is written in LaTeX (and might look frighting), you only need to replace the text that is already there (e.g. "Main Title", "Subtitle", "First-name Last-name"...).
 
 You may **render** the template at any time by knitting the mother document. The mother document is named `Untitled.Rmd` by default unless you have given it a specific name when starting a new template. In the mother document you can also add/remove/rename sections to fit your thesis outline. 
